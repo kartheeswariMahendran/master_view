@@ -1,0 +1,105 @@
+/*wrapper css*/
+#wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+    background: url('../images/lightforest.jpg')no-repeat;
+    background-size: 100% 100%;
+    min-height:662px;                
+}
+/*css for sections for dino name and description*/
+section#nameList {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+section#content {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+/*other styles*/
+.well{
+    padding: 8px;
+    background-color: rgba(20, 150, 30, 0.25);
+    border: 7px solid #e3e3e3;
+    border-radius: 36px;
+    font-size: 17px;
+    color: white;
+    font-family: cursive;
+}
+p#facts {
+    font-size: 21px;
+    color: darkred;
+    font-weight: bold;
+}
+p{
+    margin: 0 0 10px;
+    font-style: italic;
+    font-size: 17px;
+    font-family: monospace;
+    line-height: 23px;
+}
+.arrow
+{
+    display:none;
+}
+.btn-success {   
+    border-radius: 6px;   
+    border: none;
+}
+li:hover,li:active {
+    background: #6d9e5d;
+}
+li
+{
+    cursor: pointer;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    color: #367136;    
+    font-family: -webkit-body;
+    font-weight: 600;    
+}
+
+#clearfix{
+    clear: both;
+}
+#arrow
+{
+    display: none;
+}
+/*media query for tablet*/
+@media screen and (min-width:481px) and (max-width:768px){
+        #nameList
+        {
+            width:50%;
+        }
+        #content
+        {
+            width:50%;
+        }
+}
+/*media query for mobile*/
+@media screen and (min-width:0px) and (max-width:480px){
+        #nameList
+        {
+            width:100%;
+        }
+        h1
+        {
+            font-size:40px;
+        }
+        #content
+        {
+            display: none;
+        }
+        .arrow
+        {
+           display:inline;
+            float: right;
+        }
+        
+}
+
+
